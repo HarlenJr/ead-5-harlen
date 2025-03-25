@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <button id="navigateBtn">Ir para a Tela de Contato</button>
+<header>
+    <h1>cadastro usuarios</h1>
+</header>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nomeUsuario">
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="emailUsuario">
+    
+    <button onclick="adicionarusuario()">Adicionar</button>
+    <main>
+        <header>
+            <h5>usuarios cadastrados</h5>
+        </header>
+        <ul id="listausers"></ul>
+
+    </main>
+</body>
+</html>
+
+<script>
+    document.getElementById("navigateBtn").addEventListener("click", function() {
+    window.location.href = "contato.html";
+});
+</script>
