@@ -91,7 +91,8 @@ Correção da action do form: Definida uma action válida para o formulário.
 Ajuste no botão: Definida uma rota ou funcionalidade adequada.
 
 Correção de script JavaScript: Revisado e corrigido para garantir seu correto funcionamento.
-====================================================================================================================================================================
+
+==================================================================================================================================================================
 Sobre.html
 
 Alteracoes Realizadas
